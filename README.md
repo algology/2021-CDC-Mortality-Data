@@ -5,7 +5,7 @@ This repository contains scripts to process mortality data from the CDC into a S
 ## Installation
 - Clone the repository: `git clone https://github.com/algology/2021_mortality_data.git`
 - Download the dataset from here: `https://www.cdc.gov/nchs/data_access/vitalstatsonline.htm#Mortality_Multiple`
-- Run process.py
+- Run process.py (this will create the SQLite db "mortality_data.db"
 - Run visualize.py (and adjust as needed)
 
 ## Usage

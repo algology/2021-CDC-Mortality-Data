@@ -1,5 +1,7 @@
 import sqlite3
 
+# NOTE: These mappings were generated from the obtuse codings by the CDC as seen here: https://www.cdc.gov/nchs/data/dvs/Multiple-Cause-Record-Layout-2021.pdf
+
 # Function to decode reported age into years
 def decode_age(reported_age):
     if reported_age.startswith('1'):
